@@ -296,6 +296,41 @@ ServiceFabricBackup/
 *.ldf
 *.ndf
 
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+
+# env
+.env
+.env.*
+.env.local
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# cache
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# misc
+*.local
+
+# vercel
+.vercel/
+
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout
